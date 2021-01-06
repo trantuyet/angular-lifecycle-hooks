@@ -13,6 +13,7 @@ import { DisplayListComponent } from './display/display-list.component';
 import { DisplayCardComponent } from './display/display-card.component';
 import { ErrorComponent } from './error/error.component';
 import { ErrorMessageComponent } from './error/error-message.component';
+import { DisplayCardsComponent } from './display/display-cards.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ErrorMessageComponent } from './error/error-message.component';
     DisplayListComponent,
     DisplayCardComponent,
     ErrorComponent,
-    ErrorMessageComponent
+    ErrorMessageComponent,
+    DisplayCardsComponent
   ],
   imports: [
     BrowserModule,
